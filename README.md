@@ -21,7 +21,8 @@ It is likely that the participants to this course aim at getting involved in gen
 
 ## Course Pre-requisites
 
-Recommended Linux and basic Python programming skills, graduate level in Life Sciences. 
+Recommended Linux and basic Python programming skills, graduate level in Life Sciences.
+
 
 ## Content
 
@@ -31,12 +32,26 @@ Recommended Linux and basic Python programming skills, graduate level in Life Sc
 | Day2 | <ul><li>[Morning wrap up](/Presentations/Day2/01_20161011_Summary_of_day_1.pdf)</li><li>[Chromatin and 3Cs](/Presentations/Day2/02_20161011_Chromatin_and_3Cs.pdf)</li><li>[Integrative modeling](/Presentations/Day2/03_20161011_IntegrativeModeling.pdf)</li><li>[Applications(I): Alpha globin](/Presentations/Day2/04_20161011_Applications(I)_alpha_globin.pdf)</li></ul>| <ul><li>[Filterind reads](/Notebooks/03-Filtering mapped reads.ipynb)</li><li>[Normalization](Notebooks/04-Bin-filtering and normalization.ipynb)</li></ul> | <ul><li>[Compare/merge experiments](/Notebooks/A3-Compare and merge Hi-C experiments.ipynb)</li></ul> | <li>Genome organization: 4.9</li><li>3D modeling: 3.7</li><li>Filtering/normalization: 4.2</li>|
 | Day3 | <ul><li>[Morning wrap up](/Presentations/Day2/01_20161012_Summary_of_day_2.pdf)</li><li>[Applications(II): Caulobacter](/Presentations/Day2/02_20161012_Applications(II)_Caulobacter.pdf)</li><li>[Applications(III): TAD hormone](/Presentations/Day2/02_20161012_Applications(III)_TAD_hormone.pdf)</li><li>[Normalization & comparison](/Presentations/Day2/02_20161012_NormalizationComparison.pdf)</li></ul>| <ul><li>[Compartments and TADs](/Notebooks/05-Compartments and TADs.ipynb)</li></ul> | <ul><li>[Align and compare TADs](/Notebooks/A4-Align and compare TADs.ipynb)</li></ul> | <li>Validation 3D models: 0.0</li><li>Compartment/TAD calling: 4.5</li><li>TADbit usage: 4.2</li>|
 | Day4 | <ul><li>[Morning wrap up](/Presentations/Day4/01_20161013_Summary_of_day_3.pdf)</li><li>[Applications(IV): Fly colors](/Presentations/Day4/02_20161013_Applications(IV)_FlyColors.pdf)</li></ul>| <ul><li>[Parameter optimization](/Notebooks/06a-Modeling - parameter optimization.ipynb)</li><li>[Model optimization](/Notebooks/06b-Modeling - model optimization.ipynb)</li></ul> | <ul><li>[Analysis of 3D models](/Notebooks/A5-Modeling - analysis of 3D models.ipynb)</li></ul> |
+| Day5 | <ul><li>[Nucleosome dynamics](/Presentations/Day5/nucleosome_dynamics.pdf)</li></ul>|  |  |
 
 ## TADbit tools
 
 Most of the tasks of the "core pipeline" can be tunned directly from command line (without any python), using [TADbit tool](/TADbit_tools). Have a look to the commands, and the metadata of the results. 
 
 _For now TADbit tool is not incuded in the general documetation, as it is still "under construction". Use it carefully, and don't hesitate to repport anyweird behaviour you observe._
+
+
+## TADbit version
+
+This tutorial is associated with a __specific version of TADbit__, if you wish to reproduce exactly the results in the notebooks you should use the version of TADbit tagged `3DAROC_2016`.
+
+To install this version do:
+
+    git clone https://github.com/3dgenomes/tadbit
+    cd tadbit
+    git checkout tags/3DAROC_2016
+    sudo python setup.py install
+
 
 # Want more?
 <p>
