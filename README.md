@@ -1,4 +1,4 @@
-# 3DAROC
+# Chromosomal Conformation Course
 <p>
 <img align="right" src=/Documents/Logo/Foto-DNA_MMarti_0.jpg?raw=True>
 <h2>Course description</h2><br>
@@ -43,22 +43,15 @@ _For now TADbit tool is not incuded in the general documetation, as it is still 
 
 ## TADbit version
 
-This tutorial is associated with a __specific version of TADbit__, if you wish to reproduce exactly the results in the notebooks you should use the version of TADbit tagged `3DAROC_2016`.
+This tutorial is associated with a __specific version of TADbit__, if you wish to reproduce exactly the results in the notebooks you should use the version of TADbit tagged `CRG_CCc_2017`.
 
 To install this version do:
 
     git clone https://github.com/3dgenomes/tadbit
     cd tadbit
-    git checkout tags/3DAROC_2016
+    git checkout tags/CRG_CCc_2017
     sudo python setup.py install
 
-
-# Want more?
-<p>
-
-<img align="left" src=http://www.crg.eu/sites/default/files/styles/134x192_events_list/public/events/CRG_Cromosomal_conformation-2016_0.jpg?itok=v0rQ9D9X&raw=True>
-<h2>COURSES@CRG: Chromosomal Conformation</h2>
-5 days course (<b>28/11/2016 to 02/12/2016</b>) in Barcelona, to <b>learn how to perform 3C experiments</b> and assess their quality through different <b>quality controls</b>. The course will also provide the basic bioinformatic knowledge to analyze the data generated.</p>
 
 - http://www.crg.eu/en/event/coursescrg-chromosomal-conformation-0
 
