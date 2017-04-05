@@ -2,7 +2,7 @@
 <p>
 <img align="right" src=/Documents/Logo/Foto-DNA_MMarti_0.jpg?raw=True>
 <h2>Course description</h2><br>
-3C-based methods, such as Hi-C, produce a huge amount of raw data as pairs of DNA reads that are in close spatial proximity in the cell nucleus. Overall, those interaction matrices have been used to study how the genome folds within the nucleus, which is one of the most fascinating problems in modern biology. The rigorous analysis of those paired-reads using computational tools has been essential to fully exploit the experimental technique, and to study how the genome is folded in the space. Currently, there is a clear expansion on the wealth of data on genome structure with the availability of many datasets of Hi-C experiments down to 1Kb resolution (see for example: http://hic.umassmed.edu/welcome/welcome.php ; http://promoter.bx.psu.edu/hi-c/view.php or http://www.aidenlab.org/data.html ). In this course, participants will learn to use TADbit, a software designed and developed to manage all dimensionalities of the Hi-C data:
+3C-based methods, such as Hi-C, produce a huge amount of raw data as pairs of DNA reads that are in close spatial proximity in the cell nucleus. Overall, those interaction matrices have been used to study how the genome folds within the nucleus, which is one of the most fascinating problems in modern biology. The rigorous analysis of those paired-reads using computational tools has been essential to fully exploit the experimental technique, and to study how the genome is folded in the space. Currently, there is a clear expansion on the wealth of data on genome structure with the availability of many dataset of Hi-C experiments down to 1Kb resolution (see for example: http://hic.umassmed.edu/welcome/welcome.php ; http://promoter.bx.psu.edu/hi-c/view.php or http://www.aidenlab.org/data.html ). In this course, participants will learn to use TADbit, a software designed and developed to manage all dimensionalities of the Hi-C data:
 </p>
 
 
@@ -12,6 +12,11 @@
  - 4D - Compare samples at different time points
 
 Participants can bring- specific biological questions and/or their own 3C-based data to analyze during the course. At the end of the course, participants will be familiar with the TADbit software and will be able to fully analyze Hi-C data. Note: Although the TADbit software is central in this course, alternative software will be discussed for each part of the analysis.
+
+*Why TADbit?*
+
+This course uses exclusively mostly TADbit to analyze HiC data, however many other tools are available ( https://www.multiscalegenomics.eu/MuGVRE/3c-tools-comparison/ ). The advantage of using TADbit is that it covers all the step of the analysis, from the quality check of the FASTQ reads to the 3D modeling, and is thus the perfect backbone for any HiC analysis pipeline. Moreover, as it is a python library, it is relatively easy to plugin analysis from other tools at any step.
+
 
 ## Target Audience
 
