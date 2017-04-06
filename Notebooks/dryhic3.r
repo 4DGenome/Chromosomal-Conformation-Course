@@ -85,6 +85,9 @@ allbins <- group_by(chromosomes, chr) %>%
     do(data.frame(pos = seq(0, len = ceiling(.$len / reso)))) %>%
     ungroup %>%
     as.data.frame %>%
+    mutate(chr = factor(chr, levels = unique(chromosomes$chr))) %>%
+    arrange(chr, pos) %>%
+    mutate(chr = as.character(chr)) %>%
     mutate(pos = as.integer(pos * reso),
            i = 1:n() - 1)
 
